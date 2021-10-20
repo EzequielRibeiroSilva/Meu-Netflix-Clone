@@ -1,0 +1,226 @@
+/* Reset CSS */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Estilos do Body */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--preto);
+    color: white;
+}
+
+/* Nossas variáveis */
+/* Cores */
+:root {
+    --vermelho: #E50915;
+    --preto: #141414;
+}
+
+/* Estilos do header */
+
+#container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.logo, .menu-Um, .menu-Dois {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    justify-content: end;
+}
+
+.menu-Um {
+    margin-left: 40px;
+    justify-content: start;
+}
+
+.menu-Dois {
+    justify-content: end;
+    margin-right: 70px;
+}
+
+.logo img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.menu-Um a {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.733);
+    margin: 0 15px;
+    transition: .2s ease all;
+}
+
+.menu-Um a:hover {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 5px;
+    /*border-bottom: solid 1px var(--vermelho);*/
+}
+
+.menu-Dois i {
+    margin: 0 15px;
+    color: rgba(255, 255, 255, 0.733);
+
+}
+
+.menu-Dois i:hover {
+    color: white;
+}
+
+.menu-Dois button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 17px;
+    color: white;
+    background-color: var(--vermelho);
+    border: none;
+    padding: 1px 10px;
+    border-radius: 50px;
+}
+
+.menu-Dois button:hover {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+    color: white;
+    background-color: var(--vermelho);
+    border: none;
+    padding: 2px 11px;
+    border-radius: 50px;
+}
+
+/* Conteúdo do filme principal */
+
+.filme-principal { 
+    height: 700px;
+    background-image: url(/img/star-trek.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.container {
+    margin-left: 200px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+}
+
+.container-1 img {
+    width: 20px;
+}
+
+.container-2 h1 {
+    font-size: 75px;
+}
+
+.container-3 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.container-3 p {
+    margin-right: 16px;
+}
+
+.idade {
+    padding: 2px 16px;
+    border: solid 2px var(--vermelho);
+    border-radius: 50px;
+}
+
+.container-4 p {
+    font-size: 16px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.btn-1 {
+    /*background-color: var(--vermelho);*/
+    background-color: #e50914c2;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 15px 25px;    
+    margin-right: 10px;
+    border-radius: 50px;
+    transition: .2s ease all;
+}
+
+.btn-1:hover {
+    background-color: var(--vermelho);
+}
+
+.btn-1 p {
+    display: inline;
+    margin-left: 8px;
+}
+
+.play {
+    margin-right: 5px;
+}
+
+.btn-2 {
+    /*background-color: white;*/
+    background-color: rgba(255, 255, 255, 0.815);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: .2s ease all;
+}
+
+.btn-2:hover {
+    background-color: white;
+}
+
+/* Estilos do Carrossel */
+
+.poster-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: 15px;
+}
+
+.poster-filmes-1 {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: 15px;
+}
+
+
+
+
+ 
+
